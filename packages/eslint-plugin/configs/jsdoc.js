@@ -116,7 +116,14 @@ module.exports = {
 			'error',
 			'always',
 			{
-				tags: [ 'param', 'arg', 'argument', 'property', 'prop' ],
+				tags: [
+					'param',
+					'arg',
+					'argument',
+					'property',
+					'prop',
+					'throws',
+				],
 				preserveMainDescriptionPostDelimiter: true,
 			},
 		],
